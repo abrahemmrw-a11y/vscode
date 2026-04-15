@@ -1,3 +1,10 @@
+# Package A
+[dependencies]
+bitflags = "1.0"  # meaning `>=1.0.0,<2.0.0`
+
+# Package B
+[dependencies]
+bitflags = "1.1"  # meaning `>=1.1.0,<2.0.0`
 # This workflow will build and push a node.js application to an Azure Web App when a commit is pushed to your default branch.
 #
 # This workflow assumes you have already created the target Azure App Service web app.
